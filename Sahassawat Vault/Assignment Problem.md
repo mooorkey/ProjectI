@@ -30,9 +30,11 @@ $$Maximize : \sum_{i \text{ in W}}^n \sum_{j \text{ in J}}^m (A_{ij} \cdot x_{ij
    $$x_{ij} \in \{0,1\}, \quad \forall{i}\in W, \forall{j} \in J$$
 2. Capacity Constraint (แต่ละตำแหน่งมีการระบุจำนวนในการรับ)
    $$\sum_{i \text{ in W}}^{n}x_{ij}\leq C_{j},\quad \forall{j} \in J$$
-3. Requirement Matching Constraints (ในตำแหน่งชั้นเดิม หรือเลื่อนขั้น)
+3. Requirement Constraints (ในตำแหน่งชั้นเดิม หรือเลื่อนขั้น)
    $$x_{ij}\cdot(Level_i\geq Requirement_{j}) = 1, \quad \forall i \in W, \forall j \in J$$
-
+4. Sequence Constraints (ลำดับในการมอบหมายงาน)
+   1. มอบหมายงานจากข้าราชการชั้นสูง(6)ไปต่ำ(1)
+   2. ในแต่ละชั้นให้ทำการโยกย้ายแบบเลื่อนขั้นก่อนแล้วต่อด้วยการย้ายสถานที่
 
 #### Test Result 
 	- Test With Random Number
@@ -42,7 +44,7 @@ $$Maximize : \sum_{i \text{ in W}}^n \sum_{j \text{ in J}}^m (A_{ij} \cdot x_{ij
 
 ![[Pasted image 20230904190844.png]]
 
-| Input Size (NxN) | Iterations | Combinations | Time Took (second)   |
+| Input Size (NxN) | Iterations | Combinations | Execution Time (second)   |
 |------------|------------|--------------|--------------|
 | 1          | 2          | 1            | 0.000000    |
 | 2          | 5          | 2            | 0.000000    |
@@ -105,7 +107,7 @@ def calculate_cost(matrix, assignment):
 
 ![[Pasted image 20230904162853.png]]
 
-| Input Size (NxN) | Iterations | Combinations | Time Took (second)   |
+| Input Size (NxN) | Iterations | Combinations | Execution Time (second)   |
 |------------|------------|--------------|--------------|
 | 1          | 2          | 1            | 0.000000    |
 | 2          | 4          | 1            | 0.000000    |
@@ -194,4 +196,6 @@ def is_requirement_matched(assignment, worker_level_matrix, job_requirement_matr
 ```
 
 ![[Pasted image 20230904180508.png]]
+
+
 
