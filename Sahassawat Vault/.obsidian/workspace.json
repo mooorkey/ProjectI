@@ -4,24 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "5cb73cacda637d62",
+        "id": "9a080ab3468e58ac",
         "type": "tabs",
         "children": [
           {
-            "id": "b8c5417b46be51be",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "de14ae1fa939018c",
+            "id": "f699eb3555f6adf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Genetic Algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b200a78c836953aa",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
+            "id": "659c4f74f4caf397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Assignment Problem.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +158,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -165,21 +181,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de14ae1fa939018c",
+  "active": "b200a78c836953aa",
   "lastOpenFiles": [
-    "Genetic Algorithm.md",
     "Assignment Problem.md",
-    "Combinational Optimization.md",
-    "Project Assets.md",
-    "Selected Topic 13 July 23 Bitcoin - A peer to peer electronic cash system.md",
+    "Genetic Algorithm.md",
+    "Pasted image 20240206112757.png",
+    "Pasted image 20240206112623.png",
+    "Pasted image 20240205182414.png",
+    "Pasted image 20240205182040.png",
+    "Pasted image 20240110101422.png",
+    "Pasted image 20240109171337.png",
+    "Pasted image 20240109171125.png",
+    "Pasted image 20231225165111.png",
+    "English For Work.md",
     "Project.md",
-    "Pasted image 20230904162751.png",
-    "Pasted image 20230904162853.png",
-    "Pasted image 20230904162938.png",
-    "Pasted image 20230904180443.png",
-    "Pasted image 20230904180508.png",
+    "Project Assets.md",
+    "Pasted image 20231219091650.png",
+    "Selected Topic 13 July 23 Bitcoin - A peer to peer electronic cash system.md",
+    "Combinational Optimization.md",
     "Pasted image 20230904190844.png",
-    "Pasted image 20230904162815.png",
     "Untitled.canvas",
     "Branch-and-bound.md"
   ]

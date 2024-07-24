@@ -1,4 +1,10 @@
-input_data = [
+'''
+This is the base code used to 
+study branch and bound and 
+solve the common job assignment problem
+'''
+
+input_data = [ # the cost matrix
 #job 0, 1, 2, 3 
     [9, 2, 7, 8], # Worker 0
     [6, 4, 3, 7], # Worker 1
@@ -9,13 +15,17 @@ input_data = [
 def calculate_cost(matrix, assignment):
     bound = 0
     for i, j in enumerate(assignment):
-        bound += matrix[i][j]
+        bound += matrix[i][j] # Add cost of assignment
     return bound
 
-def find_least_cost(cost_matrix):
+def find_least_cost(cost_matrix): # The branch and bound function
     worker_length = len(cost_matrix)
-    least_cost = float('inf') # Initialize with positive infinity
-    assignment_result = []
+
+    # Initialize with positive infinity
+    least_cost = float('inf') 
+
+    # result matrix
+    assignment_result = [] 
 
     # Initialize stack
     stack = [(0, [], list(range(worker_length)))] 
@@ -25,7 +35,7 @@ def find_least_cost(cost_matrix):
         cost, assignment, unassigned = stack.pop()
 
         if not unassigned: # Check if all worker are assigned
-            if cost < least_cost:
+            if cost < least_cost: # if the path cost is less than total cost
                 least_cost = cost
                 assignment_result = assignment
             continue

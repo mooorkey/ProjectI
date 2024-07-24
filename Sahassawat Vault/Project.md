@@ -20,7 +20,7 @@
 - formulate objective(space utilization)
 - constraint
 - [[Combinational Optimization]]
-
+- [[Genetic Algorithm]]
 
 
 Key
