@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Genetic Algorithm.md",
+                "file": "KMUTNB Final Project/Genetic Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,9 +23,11 @@
             "id": "b200a78c836953aa",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "KMUTNB Final Project/Assignment Problem.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -35,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assignment Problem.md",
+                "file": "KMUTNB Final Project/Assignment Problem.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Genetic Algorithm.md",
+                "file": "KMUTNB Final Project/Assignment Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Genetic Algorithm.md",
+                "file": "KMUTNB Final Project/Assignment Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Genetic Algorithm.md"
+                "file": "KMUTNB Final Project/Assignment Problem.md"
               }
             }
           },
@@ -181,25 +183,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b200a78c836953aa",
+  "active": "0954b856b6994297",
   "lastOpenFiles": [
-    "Assignment Problem.md",
-    "Genetic Algorithm.md",
-    "Pasted image 20240206112757.png",
-    "Pasted image 20240206112623.png",
-    "Pasted image 20240205182414.png",
-    "Pasted image 20240205182040.png",
-    "Pasted image 20240110101422.png",
-    "Pasted image 20240109171337.png",
-    "Pasted image 20240109171125.png",
-    "Pasted image 20231225165111.png",
-    "English For Work.md",
-    "Project.md",
-    "Project Assets.md",
-    "Pasted image 20231219091650.png",
-    "Selected Topic 13 July 23 Bitcoin - A peer to peer electronic cash system.md",
-    "Combinational Optimization.md",
-    "Pasted image 20230904190844.png",
+    "KMUTNB Final Project/Combinational Optimization.md",
+    "KMUTNB Final Project/English For Work.md",
+    "KMUTNB Final Project/Assignment Problem.md",
+    "KMUTNB Final Project/Genetic Algorithm.md",
+    "KMUTNB Final Project",
+    "KMUTNB Final Project/Project Assets.md",
+    "KMUTNB Final Project/Project.md",
+    "KMUTNB Final Project/Pasted image 20240206112757.png",
+    "KMUTNB Final Project/Pasted image 20240206112623.png",
+    "KMUTNB Final Project/Pasted image 20240205182414.png",
+    "KMUTNB Final Project/Pasted image 20240205182040.png",
+    "KMUTNB Final Project/Pasted image 20240110101422.png",
+    "KMUTNB Final Project/Pasted image 20240109171337.png",
+    "KMUTNB Final Project/Pasted image 20240109171125.png",
+    "KMUTNB Final Project/Pasted image 20231225165111.png",
+    "KMUTNB Final Project/Pasted image 20231219091650.png",
+    "KMUTNB Final Project/Selected Topic 13 July 23 Bitcoin - A peer to peer electronic cash system.md",
+    "KMUTNB Final Project/Pasted image 20230904190844.png",
     "Untitled.canvas",
     "Branch-and-bound.md"
   ]
